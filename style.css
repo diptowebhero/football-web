@@ -49,6 +49,14 @@ p{
     background: #E02C6D;
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius: 10px;
+    transition: .3s;
+}
+.fas{
+    margin-left: 10px;
+}
+.button:hover{
+    background: white;
+    color: black;
 }
 /*======= header section end========= */
 
@@ -139,6 +147,25 @@ span {
 }
 /* ======== TOP PLAYER COMPARED SECTION END=========  */
 
+/* footer start */
+footer{
+    height: 213px;
+    text-align: center;
+}
+.footer-head img{
+    width: 300px;
+}
+
+.fab{
+    font-size: 20px;
+    padding: 17px;
+    color: black;
+    border-radius: 100%;  
+}
+.copy-right p{
+    font-size: 18px;
+    color: black;
+}
 /*======== MEDIA QUERY FOR MOBILE======== */
 @media (max-width:668px){
     #header-area{
