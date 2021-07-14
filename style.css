@@ -146,6 +146,62 @@ span {
     border-radius: 125.585px;
 }
 /* ======== TOP PLAYER COMPARED SECTION END=========  */
+/* contact form start */
+.Contact-form-section{
+    width: 100%;
+    height: 660px;
+    background:url("images/form-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.form-box{
+	width: 476px;
+	height:490px;
+	position:absolute;
+	left:50%;
+    top:50%;
+    margin-left: 26%;
+	transform:translate(-50%,-50%);
+	background:#141328;
+	border-radius:20px;
+}
+h2 {
+    text-align: center;
+    margin-top:30px;
+	color:#fff;
+}
+.input-box {
+    width: 83%;
+    margin: 13px;
+	position:relative;
+}
+.input-box input {
+    width: 100%;
+    height: 40px;
+    margin: 9px 0;
+	border:2px solid white;
+	outline:none;
+	margin-left:10px;
+	position:relative;
+	padding-left:30px;
+	color:#000;
+	font-size:14px;
+}
+#button{
+    width: 88%;
+    height: 40px;
+    outline: none;
+    margin: 22px;
+    margin-left: 30px;
+	background: #E02C6D;
+    border: none;
+    color: #fff;
+	font-size:14px;
+	cursor:pointer;
+}
+/* .Contact-form-section end */
 
 /* footer start */
 footer{
@@ -168,9 +224,13 @@ footer{
 }
 /*======== MEDIA QUERY FOR MOBILE======== */
 @media (max-width:668px){
+    /* -- ======= header section end=========  -- */
     #header-area{
         width: 400px;
         height: 695px;
+    }
+    main{
+        width:360px;
     }
     .half-width h1{
         font-size: 26px;
@@ -188,6 +248,7 @@ footer{
     p{
         font-size: 10px;
     }
+    /* -======== top player section ========= -- */
     .top-player-title{
         text-align: center;
         width: 254px;
@@ -211,10 +272,7 @@ footer{
         height: 188px;
         margin-left: 0px;
     }
-    main{
-        width:360px;
-    }
-
+    /* --======== TOP PLAYER COMPARED SECTION=========  */
     .player-compare-boxs {
         grid-template-columns: repeat(1,1fr);
         margin-left: 8px;
@@ -237,5 +295,31 @@ footer{
     }
     .title {
         font-size: 16px;
+    }
+    /* CONTACT FORM */
+    .Contact-form-section{
+        width: 360px;
+        height: 660px;
+    }
+    .form-box{
+        width: 250px;
+        height:357px;
+        margin-left: -19px;
+    }
+    .input-box {
+        width: 67%;
+    }
+    .input-box input {
+        width: 100%;
+        height: 22px;
+    }
+    #button{
+        width: 77%;
+        height: 33px;
+    }
+
+    /* FOOTER  */
+    .footer-head img{
+        width: 200px;
     }
 }
