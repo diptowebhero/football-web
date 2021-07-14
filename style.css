@@ -42,6 +42,10 @@ p{
 }
 .half-width img{
     width: 80%;
+    transition: .3s;
+}
+.half-width img:hover{
+    width: 85%;
 }
 .button{
     padding: 10px 24px;
@@ -56,6 +60,7 @@ p{
 }
 .button:hover{
     background: white;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
     color: black;
 }
 /*======= header section end========= */
